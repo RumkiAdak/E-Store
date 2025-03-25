@@ -18,14 +18,14 @@ const CategoryListing = async () => {
   return <div className=''>
     <div className='text-2xl'>Categories</div>
     <ul>
-      {
-        data.map(
-          (d, i) => <li className='p-2 border my-2' key={"category-" + i} {...d.toUpperCase()}></li>
-        )
-      }
-      
-
-    </ul>
+  {
+    data.map((category, i) => (
+      <li className="p-2 border my-2" key={"category-" + i}>
+        {category.toUpperCase()}
+      </li>
+    ))
+  }
+</ul>
 
   </div>
 

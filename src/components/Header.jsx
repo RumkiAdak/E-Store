@@ -47,7 +47,7 @@ const NavBar = () => {
 
       {/* Icons */}
    <div className="flex items-center gap-4">
-        Cart Icon
+     
 
         {/* Cart Icon */}
         <Link href="/cart">
